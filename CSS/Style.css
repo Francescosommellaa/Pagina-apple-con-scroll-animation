@@ -7,6 +7,7 @@
 }
 
 
+
 /* top page */
 .top-page {
     background-color: #f0f0f2;
@@ -14,14 +15,12 @@
     height: auto;
     display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
 /* paragrafo */
 .top-page p {
     width: 40%;
-    margin-left: 10%;
-    margin-right: 8px; 
     padding: 2%;
     font-size: 12px;
     color: #000;
@@ -48,6 +47,10 @@
     color: #000;
 }
 
+.select-country:hover {
+    cursor: pointer;
+}
+
 /* pulsante 1 */
 .pulsante-principale a {
     padding: 1em;
@@ -59,8 +62,19 @@
     margin: 2%;
 }
 
-.pulsante-principale a:hover{ 
+.pulsante-principale a:hover { 
 background-color: rgb(46, 46, 46);
+}
+
+/* pulsante 2 */
+.close-window {
+margin: 2%;
+border: none;
+font-size: 20px;
+}
+
+.close-window:hover{
+    cursor: pointer;
 }
 
 
@@ -69,8 +83,8 @@ background-color: rgb(46, 46, 46);
 
 /* css video */
 .container-video {
-    width: 90%;
-    height: 500px;
+    width: 92%;
+    height: 460px;
     margin: 0 auto;
     opacity: 0.8;
     background: #000;
