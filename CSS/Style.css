@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 
 /* paragrafo */
@@ -83,7 +84,7 @@ font-size: 20px;
 
 /* css video */
 .container-video {
-    width: 92%;
+    width: 96%;
     height: 460px;
     margin: 0 auto;
     opacity: 0.8;
@@ -102,5 +103,5 @@ font-size: 20px;
 }
 
 .spacer {
-    height: 20vh;
+    height: 60vh;
 }
