@@ -81,11 +81,13 @@ background-color: rgb(46, 46, 46);
 }
 
 
-/* navigazione superiore */
-.nav-principale {
+
+/* regole generali nav */
+.container-nav {
     margin: 0 10%;
 }
 
+/* navigazione superiore */
 .nav-item-group {
     display: flex;
     list-style: none;
@@ -109,6 +111,9 @@ background-color: rgb(46, 46, 46);
 .nav-item:hover {
     color: rgb(46, 46, 46);
 }
+
+/* navigazione inferiore */
+
 
 
 
