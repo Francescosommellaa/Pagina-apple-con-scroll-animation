@@ -11,6 +11,7 @@
 /* top page */
 nav{
     background-color: #fafafc;
+    padding-bottom: 0.6em;
 }
 
 .top-page {
@@ -102,10 +103,11 @@ background-color: rgb(46, 46, 46);
 }
 
 .nav-item {
-    padding: 2px;
+    padding: 0.5em;
     font-size: 10px;
     font-weight: 600;
     cursor: pointer;
+    text-align: center;
 }
 
 .nav-item:hover {
@@ -113,7 +115,11 @@ background-color: rgb(46, 46, 46);
 }
 
 /* navigazione inferiore */
-
+.item-img{
+    height: 5em;
+    width: auto;
+    opacity: 0.9;
+}
 
 
 
