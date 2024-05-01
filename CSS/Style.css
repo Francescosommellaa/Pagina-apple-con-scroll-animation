@@ -4,16 +4,35 @@
     box-sizing: border-box;
 }
 
-.container-video {
+.top-page {
+    background-color: #f0f0f2;
     width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.top-page p {
+    width: 40%;
+    margin: 2%;
+    font-size: 14px;
+}
+
+.select.country {
+
+}
+
+
+/* css video */
+.container-video {
+    width: 90%;
     height: 500px;
     margin: 0 auto;
-    opacity: 0;
+    opacity: 0.8;
     background: #000;
-    border-radius: 0px;
     position: relative;
     overflow: hidden;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .container-video video{

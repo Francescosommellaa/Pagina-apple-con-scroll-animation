@@ -16,20 +16,39 @@
 
 </head>
 <body>
+    <nav>
+        <div class="top-page">
+            <p>Scegli il Paese o territorio in cui sei per vedere i contenuti locali e acquistare online</p>
+            
+            <div class="select-country">Italia</div>
+        </div>
 
-    <div class="spacer"></div>
+    </nav>
 
-    <div class="container-video">
+    <main>
 
-        <video src="https://www.apple.com/105/media/us/iphone/family/2024/1efec3e0-8619-4684-a57e-6e2310394f08/anim/welcome/medium.mp4"autoplay muted loop playsinline></video>
+        <!-- Scroll video -->
+        <section>
 
-    </div>
+            <div class="spacer"></div>
+            <div class="container-video">
+        
+                <!-- video -->
+                <video src="https://www.apple.com/105/media/us/iphone/family/2024/1efec3e0-8619-4684-a57e-6e2310394f08/anim/welcome/medium.mp4"autoplay muted loop playsinline></video>
+        
+            </div>
+            <div class="spacer"></div>
 
-    <div class="spacer"></div>
+        </section>
+
+    </main>
 
 
     <footer>
-        
+
+
+
+        <!-- script gsap -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
 
@@ -37,7 +56,7 @@
         <script>
             /*js code*/
 
-
+            // video scroll animation
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: '.container-video',
@@ -47,9 +66,11 @@
                 }
             });
 
+            // modifiche video css
             tl.to(".container-video",{
                 opacity: 1,
                 width: '80%',
+                borderRadius: '36px'
             });
 
         </script>
