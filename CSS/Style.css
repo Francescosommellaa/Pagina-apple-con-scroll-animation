@@ -9,6 +9,8 @@
     width: 100%;
     height: 500px;
     margin: 0 auto;
+    opacity: 0;
+    background: #000;
 }
 
 .spacer{
