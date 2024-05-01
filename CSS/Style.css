@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: top;
 }
 
 /* paragrafo */
@@ -69,16 +69,38 @@ background-color: rgb(46, 46, 46);
 
 /* pulsante 2 */
 .close-window {
-margin: 2%;
-border: none;
-font-size: 20px;
-}
-
-.close-window:hover{
+    margin: 2%;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
     cursor: pointer;
 }
 
 
+/* navigazione principale */
+.nav-item-group {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 2%;
+    align-items: center;
+}
+
+.item {
+    width: 1em;
+    height: auto;
+}
+
+.nav-item {
+    padding: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: rgb(46, 46, 46);
+}
 
 
 
