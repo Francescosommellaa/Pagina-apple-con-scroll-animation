@@ -1,26 +1,70 @@
+/* regole generali */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: raleway, open-sans;
 }
 
+
+/* top page */
 .top-page {
     background-color: #f0f0f2;
     width: 100%;
     height: auto;
     display: flex;
+    align-items: center;
 
 }
 
+/* paragrafo */
 .top-page p {
     width: 40%;
+    margin-left: 10%;
+    margin-right: 8px; 
+    padding: 2%;
+    font-size: 12px;
+    color: #000;
+}
+
+/* selezione paese */
+.select-country {
+    text-align: center;
+    background-color: white;
     margin: 2%;
-    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
 }
 
-.select.country {
-
+.country::before {
+    content: '\2713';
+    margin-right: 12px;
+    color: #000;
 }
+
+.country::after {
+    content: '\2228';
+    margin-left: 80px;
+    color: #000;
+}
+
+/* pulsante 1 */
+.pulsante-principale a {
+    padding: 1em;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 4px;
+    margin: 2%;
+}
+
+.pulsante-principale a:hover{ 
+background-color: rgb(46, 46, 46);
+}
+
+
+
 
 
 /* css video */
@@ -35,7 +79,7 @@
     border-radius: 20px;
 }
 
-.container-video video{
+.container-video video {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,6 +87,6 @@
     height: auto;
 }
 
-.spacer{
-    height: 80vh;
+.spacer {
+    height: 20vh;
 }
